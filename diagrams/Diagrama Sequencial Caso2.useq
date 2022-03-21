@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.2" icons="true">  
+  <object id="1" language="java" name="br.aca.senac.traducao.servlet.PedidoServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/PedidoServlet.java" binary="false" label="pedidoServlet" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="99" y="0"/>    
+    <execution id="2">      
+      <position height="840" width="132" x="5" y="135"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="br.aca.senac.traducao.service.PedidoService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/PedidoService.java" binary="false" label="pedidoService" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="271" y="0"/>    
+    <execution id="4">      
+      <position height="798" width="134" x="141" y="156"/>    
+    </execution>  
+  </object>  
+  <object id="26" language="java" name="br.aca.senac.traducao.repository.GenericoDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/GenericoDAO.java" binary="false" label="dao1" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="17">      
+      <position height="63" width="0" x="0" y="471"/>    
+    </execution>  
+  </object>  
+  <object id="29" language="java" name="br.aca.senac.traducao.repository.PedidoDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/PedidoDAO.java" binary="false" label="dao" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="23">      
+      <position height="84" width="0" x="0" y="807"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="849"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="br.aca.senac.traducao.service.SimpleEntityManager" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/SimpleEntityManager.java" binary="false" 
+    label="simpleEntityManager" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="912"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="105" width="0" x="0" y="177"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="189" width="0" x="0" y="555"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="765"/>    
+    </execution>  
+  </object>  
+  <object id="45" language="java" name="javax.persistence.EntityTransaction" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="36">      
+      <position height="21" width="0" x="0" y="240"/>    
+    </execution>  
+  </object>  
+  <object id="46" language="java" name="javax.persistence.EntityTransaction" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="40">      
+      <position height="21" width="0" x="0" y="618"/>    
+    </execution>  
+  </object>  
+  <object id="47" language="java" name="javax.persistence.EntityManager" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" label="entityManager" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="42">      
+      <position height="21" width="0" x="0" y="660"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="21" width="0" x="0" y="576"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="21" width="0" x="0" y="492"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="21" width="0" x="0" y="198"/>    
+    </execution>  
+  </object>  
+  <object id="48" language="java" name="javax.persistence.EntityTransaction" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="44">      
+      <position height="21" width="0" x="0" y="702"/>    
+    </execution>  
+  </object>  
+  <object id="49" language="java" name="br.aca.senac.traducao.domain.model.Pedido" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Pedido.java" binary="false" label="pedido" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="534" y="0"/>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="303"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="345"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="387"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="429"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="63" width="161" x="724" y="469"/>    
+    </execution>  
+  </object>  
+  <object id="53" language="java" name="br.aca.senac.traducao.service.FileService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/FileService.java" binary="false" label="fileService" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="899" y="0"/>    
+    <execution id="54">      
+      <position height="451" width="134" x="889" y="430"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="21" width="0" x="0" y="472"/>    
+    </execution>  
+  </object>  
+  <object id="75" language="java" name="javax.servlet.http.Part" project="senac-traducao" 
+    file="C:/Program Files/Java/jre7/lib/ext/servlet-api.jar" binary="true" label="part" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="58">      
+      <position height="21" width="0" x="0" y="503"/>    
+    </execution>    
+    <execution id="60">      
+      <position height="21" width="0" x="0" y="545"/>    
+    </execution>  
+  </object>  
+  <object id="76" language="java" name="org.jboss.logging.Logger" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/jboss-logging-3.1.4.GA.jar" binary="true" 
+    label="logger" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="62">      
+      <position height="21" width="0" x="0" y="587"/>    
+    </execution>  
+  </object>  
+  <object id="77" language="java" name="br.aca.senac.traducao.repository.IFileDao" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/IFileDao.java" binary="false" label="dao2" 
+    type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="74">      
+      <position height="21" width="0" x="0" y="839"/>    
+    </execution>  
+  </object>  
+  <object id="78" language="java" name="br.aca.senac.traducao.domain.model.FileEntity" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/FileEntity.java" binary="false" label="fileEntity" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="882" y="0"/>    
+    <execution id="52">      
+      <position height="21" width="161" x="889" y="490"/>    
+    </execution>    
+    <execution id="79">      
+      <position height="493" width="161" x="1027" y="409"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="21" width="0" x="0" y="629"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="21" width="0" x="0" y="671"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="21" width="0" x="0" y="713"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="21" width="0" x="0" y="755"/>    
+    </execution>    
+    <execution id="72">      
+      <position height="21" width="0" x="0" y="797"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="save(br.aca.senac.traducao.domain.model.Pedido):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="beginTransaction():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="validarDescricao():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" operation="validarData():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="validarIdioma_destino():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="validarIdioma_origem():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="save(T):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="commit():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="rollBack():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="PedidoDAO(javax.persistence.EntityManager)">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="getEntityManager():javax.persistence.EntityManager">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="27" operation="persist(java.lang.Object):void">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="30" operation="GenericoDAO(javax.persistence.EntityManager)">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="33" operation="getTransaction():javax.persistence.EntityTransaction">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="begin():void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="getTransaction():javax.persistence.EntityTransaction">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="commit():void">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="getTransaction():javax.persistence.EntityTransaction">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="commit():void">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="51" operation="FileEntity()">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="55" operation="getFileName(javax.servlet.http.Part):java.lang.String">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="getContentType():java.lang.String">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="write(java.lang.String):void">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="error(java.lang.Object):void">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="FileEntity()">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="setName(java.lang.String):void">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="setMonth(java.lang.String):void">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="setYear(java.lang.String):void">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="71" operation="setType(java.lang.String):void">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="72"/>  
+  </message>  
+  <message id="73" operation="save(br.aca.senac.traducao.domain.model.FileEntity):void">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="74"/>  
+  </message>  
+  <message id="80" operation="saveFile(java.nio.file.Path,javax.servlet.http.Part):void">    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="br.aca.senac.traducao.domain.model.Cliente" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Cliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="791" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="br.aca.senac.traducao.domain.model.Gerente" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Gerente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="325" y="331"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="br.aca.senac.traducao.domain.model.Manage" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Manage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="664" y="1026"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="4" language="java" name="br.aca.senac.traducao.domain.model.Pais" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Pais.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="205" width="222" x="544" y="1357"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="5" language="java" name="br.aca.senac.traducao.domain.model.Pedido" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Pedido.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="963" y="1152"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="br.aca.senac.traducao.domain.model.Status" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Status.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1326" y="1396"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="br.aca.senac.traducao.domain.model.Tradutor" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Tradutor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="552" y="333"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="br.aca.senac.traducao.domain.model.Usuario" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Usuario.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="342" y="1200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="9" language="java" name="br.aca.senac.traducao.domain.model.Idioma" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Idioma.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="389" width="164" x="1254" y="773"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="10" language="java" name="br.aca.senac.traducao.domain.model.FileEntity" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/FileEntity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1072" y="433"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="br.aca.senac.traducao.domain.exception.ClienteException" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/exception/ClienteException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2612" y="507"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="br.aca.senac.traducao.domain.exception.GerenteException" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/exception/GerenteException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2619" y="313"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="br.aca.senac.traducao.domain.exception.ManageException" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/exception/ManageException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2327" y="308"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="br.aca.senac.traducao.domain.exception.PedidoException" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/exception/PedidoException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1733" y="506"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="br.aca.senac.traducao.domain.exception.TradutorException" 
+    project="senac-traducao" file="/senac-traducao/src/br/aca/senac/traducao/domain/exception/TradutorException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2026" y="310"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="br.aca.senac.traducao.domain.exception.UsuarioException" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/exception/UsuarioException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1728" y="309"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="br.aca.senac.traducao.repository.ManageDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/ManageDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1883" y="865"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="br.aca.senac.traducao.repository.GenericoDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/GenericoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2211" y="620"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="br.aca.senac.traducao.repository.GerenteDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/GerenteDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2065" y="864"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="br.aca.senac.traducao.repository.ClienteDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/ClienteDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2244" y="863"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="br.aca.senac.traducao.repository.IFileDao" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/IFileDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2193" y="1032"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="br.aca.senac.traducao.repository.FileDao" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/FileDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1940" y="1038"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="br.aca.senac.traducao.repository.UsuarioDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/UsuarioDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2418" y="864"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="br.aca.senac.traducao.repository.TradutorDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/TradutorDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2598" y="863"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="br.aca.senac.traducao.repository.PedidoDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/PedidoDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1700" y="868"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="br.aca.senac.traducao.service.FileService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/FileService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1817" y="1597"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="br.aca.senac.traducao.service.ClienteService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/ClienteService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2368" y="1222"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="br.aca.senac.traducao.service.TradutorService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/TradutorService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2828" y="1220"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="br.aca.senac.traducao.service.SimpleEntityManager" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/SimpleEntityManager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2164" y="1596"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="br.aca.senac.traducao.service.GerenteService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/GerenteService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2139" y="1223"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="br.aca.senac.traducao.service.UsuarioService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/UsuarioService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2592" y="1222"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="br.aca.senac.traducao.service.PedidoService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/PedidoService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1687" y="1215"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="br.aca.senac.traducao.service.ManageService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/ManageService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1910" y="1216"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="br.aca.senac.traducao.servlet.FileLoadServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/FileLoadServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1303" y="2174"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="br.aca.senac.traducao.servlet.PedidoServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/PedidoServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1292" y="1974"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="br.aca.senac.traducao.servlet.PedidoRemoverServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/PedidoRemoverServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="971" y="1984"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="br.aca.senac.traducao.servlet.CadastroServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/CadastroServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="331" y="1969"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="br.aca.senac.traducao.servlet.PedidoAlterarServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/PedidoAlterarServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="656" y="1981"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="br.aca.senac.traducao.servlet.FileUploadServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/FileUploadServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="334" y="2116"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="br.aca.senac.traducao.servlet.LoginServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/LoginServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="982" y="2150"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="br.aca.senac.traducao.servlet.TradutorServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/TradutorServlet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="659" y="2158"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="br.aca.senac.traducao.teste.Teste" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/teste/Teste.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1340" y="200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <association id="45">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="46" name="simpleEntityManager"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <association id="49">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="50" name="simpleEntityManager"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="59">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="60" name="dao"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="62">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="63">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="31"/>  
+  </dependency>  
+  <association id="64">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="65" name="dao"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="67">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="31"/>  
+  </dependency>  
+  <association id="68">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="69" name="cliente"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <dependency id="72">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="76">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="31"/>  
+  </dependency>  
+  <dependency id="78">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="79">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="80" name="tradutor"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="82">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <dependency id="84">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="39"/>  
+  </dependency>  
+  <dependency id="86">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="39"/>  
+  </dependency>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="88">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="89" name="usuario"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="92" name="pais"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="95" name="usuario"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="97">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="39"/>  
+  </dependency>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="101">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="102" name="pedidos"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="104">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="105">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="106" name="usuario"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="108">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="109" name="manage"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="111">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="112">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="113">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="114">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="115" name="simpleEntityManager"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="117">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="118">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="119">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <dependency id="120">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="121">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="122" name="idioma_destino"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="124">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="125">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="126">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <generalization id="128">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="129">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="130" name="dao"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="133" name="dao"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="135">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="136">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="137">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="138">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="139">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="140">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="141">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="142">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="143" name="dao"/>      
+      <multiplicity id="144" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="145">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="146">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <dependency id="147">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="148">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="149">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="150" name="dao"/>      
+      <multiplicity id="151" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="152">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="153">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="154" name="dao"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="156">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <dependency id="157">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="158">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="159">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="160">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="161" name="idioma_origem"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="163">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="164">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="165">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="166">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="167">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="168">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="169">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="170">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="171">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="172">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="173">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="174" name="pedido"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="177" name="simpleEntityManager"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="179">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="180">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="181">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="182">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="183" name="simpleEntityManager"/>      
+      <multiplicity id="184" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="185">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="186">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="187" name="simpleEntityManager"/>      
+      <multiplicity id="188" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="189">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="190" name="simpleEntityManager"/>      
+      <multiplicity id="191" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="192">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="193" name="pedidos"/>      
+      <multiplicity id="194" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="195">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <association id="196">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="197" name="arquivo"/>      
+      <multiplicity id="198" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="199">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="200" name="status"/>      
+      <multiplicity id="201" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

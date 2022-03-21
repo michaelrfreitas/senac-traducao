@@ -1,0 +1,10 @@
+package br.aca.senac.traducao.domain.model;
+
+public enum Idioma {
+
+	Escolha, Afegane_pachto, Aimará, Albanês, Alemão, Amâmio, Aragonês, Aranês, Armênio, Aruák, Assamês, Asturiano, Azeri_Azerbaijano, Baluche_Balúchi, Banárico, Baquírio, Basco, Bengali, Bicol, Bielo_russo, Bihari, Birmanês, Bósnio, Bretão, Búlgaro, Buriate, Cachemira, Calmuque, Caló, Cambojano, Canará, Cantonês, Catalão, Catúico, Cazaque, Cebuano, Chamorro, Cingalês, Concani, Coreano, Córnico_GB, Córsico, Croata, Curdo, Dalmáta, Dari, Dinamarquês, Emiliano_R, Eslavo_Eslovaco, Esloveno, Espanhol, Esperanto, Estoniano, Evenki, Faroês, Fijiano, Filipino, Finlandês, Flamengo, Francês, Frances_Canadense, Frísio, Friulano, Gaélico_escocês, Gaélico_irlandês, Galego, Galês, Gascão, Gaulês, Gilbertês, Gótico, Grego, Groenlandês, Guarani, Gujarati, Hariani, Hatti, Havaiano, Hindi, Húngaro, Ídiche_Iídiche, Ilokano, Ilongo, Indonésio, Inglês, Inuktitut, Islandês, Italiano, Japonês, Javanês, Judeu_espanhol, K_Kurmanji, Karib, Laosiano, Lapão, Latim, Letão, Limburguês, Lituano, Lombardo, Luxemburguês, M_simples, Macedônio, Maia, Malaialo, Malaio, Maldivense, Manchu, Mandarim, Manx, Maori, Mapudungun, Marati, Marshalês, Miáquico, Mirandês, Mongol, Munda, Nanai, Napolitano, Nauatle, Nauruense, Neerlandês, Nenets, Nepalês, Nissart, Norueguês, Okinawano, Oria, Osseto_Ossete, Palauense, Palaúngico, Patoá, Persa_farsi, Piemontês, Polonês_br, Português, Provençal_Ocitano, Prussiano, Punjabi, Quíchua, Quirguiz, Rapanui, Reto_romano, Romani, Romeno, Russo, Sami, Samoano, Samogiciano, Sânscrito, Sardo, Selkup, Sérvio, Servo_croata, Siciliano, Sindi, Sioux, Sorábio, Sranan, Sueco, Suméria, Sundanês, Tadjique, Tagalo, Tailandês, Taitiano, Taiuanês, Tâmil, Tangut, Tatarça, Tcheco, Télugo, Tétum, Tibetano, Toba, Tonganês, Turco, Turcomano, Tuvaluano, Ucrâniano, Uigur, Umbrian, Urdu, Uzbeque, Valão, Valenciano, Vêneto, Vietnamita, Wallisian, Wu, Xibe, Yukhagir, Zoncá, ;
+
+	public boolean isNotSelecionada() {
+		return Escolha.equals(this);
+	}
+}

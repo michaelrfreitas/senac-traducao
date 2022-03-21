@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.2" icons="true">  
+  <object id="1" language="java" name="br.aca.senac.traducao.servlet.CadastroServlet" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/servlet/CadastroServlet.java" binary="false" label="cadastroServlet" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="130" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="132" x="5" y="113"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="609" width="132" x="5" y="210"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="84" width="132" x="5" y="868"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="910"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="br.aca.senac.traducao.service.TradutorService" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/TradutorService.java" binary="false" label="tradutorService" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="278" y="0"/>    
+    <execution id="7">      
+      <position height="567" width="134" x="141" y="231"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="br.aca.senac.traducao.service.SimpleEntityManager" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/service/SimpleEntityManager.java" binary="false" 
+    label="simpleEntityManager" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="13">      
+      <position height="105" width="0" x="0" y="252"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="105" width="0" x="0" y="546"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="105" width="0" x="0" y="672"/>    
+    </execution>  
+  </object>  
+  <object id="37" language="java" name="javax.persistence.EntityTransaction" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="36">      
+      <position height="21" width="0" x="0" y="735"/>    
+    </execution>  
+  </object>  
+  <object id="38" language="java" name="javax.persistence.EntityTransaction" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="32">      
+      <position height="21" width="0" x="0" y="609"/>    
+    </execution>  
+  </object>  
+  <object id="39" language="java" name="javax.persistence.EntityManager" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" label="entityManager" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="273"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="21" width="0" x="0" y="483"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="0" x="0" y="567"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="21" width="0" x="0" y="693"/>    
+    </execution>  
+  </object>  
+  <object id="41" language="java" name="javax.persistence.EntityTransaction" project="senac-traducao" 
+    file="C:/Users/Michael/workspace/senac-traducao/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" 
+    binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="28">      
+      <position height="21" width="0" x="0" y="315"/>    
+    </execution>  
+  </object>  
+  <object id="42" language="java" name="br.aca.senac.traducao.repository.GenericoDAO" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/repository/GenericoDAO.java" binary="false" label="dao" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="63" width="0" x="0" y="462"/>    
+    </execution>  
+  </object>  
+  <object id="44" language="java" name="br.aca.senac.traducao.domain.model.Tradutor" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Tradutor.java" binary="false" label="tradutor" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="604" y="0"/>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="378"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="420"/>    
+    </execution>    
+    <execution id="45">      
+      <position height="126" width="161" x="1058" y="847"/>    
+    </execution>  
+  </object>  
+  <object id="47" language="java" name="br.aca.senac.traducao.domain.model.Usuario" project="senac-traducao" 
+    file="/senac-traducao/src/br/aca/senac/traducao/domain/model/Usuario.java" binary="false" label="usuario" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="630" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="161" x="593" y="134"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="Usuario()">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="save(br.aca.senac.traducao.domain.model.Tradutor):void">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="HttpServlet()">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" operation="beginTransaction():void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="validarNome():void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="validarCpf():void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="save(T):void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="commit():void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="rollBack():void">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="25" operation="getTransaction():javax.persistence.EntityTransaction">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="begin():void">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="getTransaction():javax.persistence.EntityTransaction">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" operation="commit():void">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="getTransaction():javax.persistence.EntityTransaction">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="rollback():void">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="43" operation="persist(java.lang.Object):void">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="46" operation="CadastroServlet()">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>
+</sequence-diagram>
